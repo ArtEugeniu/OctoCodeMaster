@@ -1,0 +1,20 @@
+.contact {
+
+  .contact__info {
+    display: flex;
+    gap: 25px;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  &__item {
+    transition: 0.3s;
+    &:hover {
+      opacity: 0.6;
+    }
+
+    &:active {
+      opacity: 0.2;
+    }
+  }
+}

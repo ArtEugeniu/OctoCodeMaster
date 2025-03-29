@@ -1,0 +1,30 @@
+@import '../../styles/mixin';
+
+.footer { 
+  background-color: #000000;
+  padding: 20px 0;
+
+  &__content {
+    margin: 0 auto;
+    max-width: 50px;
+  }
+
+  &__logo-link {
+
+    transition: 0.3s;
+
+    &:hover {
+      @include hover-opacity;
+    }
+
+    &:active {
+      @include active-opacity;
+    }
+  }
+
+  &__logo-img {
+    width: 40px;
+    height: 40px;
+    transition: opacity 0.3s;
+  }
+}

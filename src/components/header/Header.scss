@@ -1,0 +1,52 @@
+@import '../../styles/mixin';
+
+.header {
+  max-width: 1200px;
+  width: 100%;
+  padding: 16px 32px;
+  margin-top: 16px;
+  border-radius: 5px;
+  position: fixed;
+  z-index: 50;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: margin-top 0.3s, box-shadow 0.3s, background-color 0.3s;
+
+  &-scrolled {
+    margin-top: 20px;
+    box-shadow: 0 0 2px 0 var(--foreground);
+    background-color: #09090b;
+  }
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__logo-link {
+
+    transition: 0.3s;
+
+    &:active {
+      @include active-opacity;
+    }
+  }
+
+  &__logo-img {
+    width: 40px;
+    height: 40px;
+    transition: opacity 0.3s;
+  }
+}
+
+
+@media (hover:hover) {
+  .header__logo-link:hover {
+    @include hover-opacity
+  }
+
+  .header__logo-link:active {
+    @include active-opacity
+  }
+}

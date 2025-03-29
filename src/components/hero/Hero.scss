@@ -1,0 +1,45 @@
+@import '../../styles/global.scss';
+@import '../../styles/Buttons.scss';
+
+.hero {
+  background-image: url('/images/1.png');
+  background-size: 40% 77%;
+  background-position: right 80px bottom 35%;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url(/images/noise-light.png);
+    opacity: .15;
+    mix-blend-mode: color-dodge;
+    pointer-events: none;
+    z-index: -20;
+  }
+
+  &__content-block {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  &__title {
+    max-width: 830px;
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+
+  &__text {
+    max-width: 586px;
+    color: var(--gray);
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  &__button:not(:last-child) {
+    margin-right: 20px;
+  }
+}
