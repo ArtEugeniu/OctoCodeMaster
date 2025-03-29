@@ -17,19 +17,19 @@ const aboutUs: AboutData = {
       id: v4(),
       name: "Alen",
       position: "Project Manager & Founder",
-      image: "/images/team/alen.jpg",
+      image: "/OctoCodeMaster/images/team/alen.jpg",
     },
     {
       id: v4(),
       name: "David",
       position: "Lead Developer",
-      image: "/images/team/david.jfif",
+      image: "/OctoCodeMaster/images/team/david.jfif",
     },
     {
       id: v4(),
       name: "Alexander",
       position: "Marketing Expert",
-      image: "/images/team/alex.jpg",
+      image: "/OctoCodeMaster/images/team/alex.jpg",
     }
   ]
 }

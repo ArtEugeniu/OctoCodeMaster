@@ -29,7 +29,7 @@ function Header() {
       <div className="container">
         <div className="header__inner">
           <a className="header__logo-link" href="#">
-            <Image className="header__logo-img" src="/images/icons/logo-light.svg" alt="logo" />
+            <Image className="header__logo-img" src="/OctoCodeMaster/images/icons/logo-light.svg" alt="logo" />
           </a>
           <Nav />
           <button className="header__button button-secondary">Contact us</button>
