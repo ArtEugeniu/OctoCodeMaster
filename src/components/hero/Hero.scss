@@ -1,5 +1,5 @@
-@import '../../styles/global.scss';
-@import '../../styles/Buttons.scss';
+@use '../../styles/global';
+@use '../../styles/Buttons';
 
 .hero {
   background-image: url('/images/1.png');

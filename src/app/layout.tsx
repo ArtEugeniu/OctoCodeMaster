@@ -3,7 +3,7 @@ import { Roboto } from "next/font/google";
 import "../styles/global.scss";
 import Header from "@/components/header/Header";
 
-export const roboto = Roboto({
+const roboto = Roboto({
   variable: "--font-roboto-sans",
   subsets: ["latin"],
 });
