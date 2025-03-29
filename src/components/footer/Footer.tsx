@@ -8,7 +8,7 @@ function Footer() {
       <div className="container">
         <div className="footer__content">
           <a className='footer__logo-link' href="#">
-            <Image className='footer__logo-img' src="/images/icons/logo-light.svg" alt="logo" />
+            <Image className='footer__logo-img' src="/OctoCodeMaster/images/icons/logo-light.svg" alt="logo" />
           </a>
         </div>
       </div>
