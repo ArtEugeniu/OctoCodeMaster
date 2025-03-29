@@ -2,7 +2,7 @@
 @use '../../styles/Buttons';
 
 .hero {
-  background-image: url('/images/1.png');
+  background-image: url('/OctoCodeMaster/images/1.png');
   background-size: 40% 77%;
   background-position: right 80px bottom 35%;
   background-repeat: no-repeat;
@@ -13,7 +13,7 @@
     content: '';
     position: absolute;
     inset: 0;
-    background-image: url(/images/noise-light.png);
+    background-image: url('/OctoCodeMaster/images/noise-light.png');
     opacity: .15;
     mix-blend-mode: color-dodge;
     pointer-events: none;
